@@ -1,7 +1,47 @@
-h2 {
-    color: red;
+h1 {
+    color: rgb(18, 18, 18);
+    box-shadow: 2px 4px 4px black;
 }
 
-img {
+.sunflower {
+    text-align: center;
+    margin: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(237, 226, 102);
+    border: 4px solid black;
     
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    color: rgb(11, 31, 21);
+    display:flex;
+    justify-content:space-around;
+}
+
+.nav a {
+    color: rgb(230, 230, 230); 
+    align-items: center;
+    border-radius: 110px;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(3, 3, 3);
+    cursor: grab;
+    box-shadow: 2px 4px 4px rgb(5, 5, 5);
+    transition: .5s;
+}
+
+.nav a:hover{
+    box-shadow: 2px 4px 4px rgb(233, 235, 77);
+}
+
+.nav {
+    display-flex
 }
