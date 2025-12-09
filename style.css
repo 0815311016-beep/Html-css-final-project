@@ -51,8 +51,20 @@ body {
     background-color: rgb(159, 159, 97);
 }
 
-.nba-youngboy img{
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gallery img{
     width: 400px;
     height: 430px;
     border-radius: 100px;
+    cursor: grab;
 }
+
+@keyframes bounce {
+    animation-diration: 1.5s
+}
+
