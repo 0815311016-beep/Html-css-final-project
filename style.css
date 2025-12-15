@@ -62,9 +62,11 @@ body {
     height: 430px;
     border-radius: 100px;
     cursor: grab;
+    transition: 200ms;
 }
 
-@keyframes bounce {
-    animation-diration: 1.5s
+.gallery img:hover{
+    transform: scale(110%);
+    filter: blur(5px);
 }
 
